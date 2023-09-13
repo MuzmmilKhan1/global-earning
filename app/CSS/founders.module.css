@@ -1,0 +1,153 @@
+  .founders{
+    background-color: #1c1d55;
+    padding: 5%;
+    overflow: hidden !important;
+  }
+  
+  .foundersContent{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+  .customCarousel {
+    width: 100vh; 
+    height: 100vh;
+    background: linear-gradient(16deg, rgb(225, 161, 237) 0%, rgb(172, 125, 241) 35%, rgb(118, 88, 244) 100%);
+    position: relative;
+    border-radius: 50%;
+  }
+  
+  .customCarousel img {
+    width: 40%; /* Reduce image size to fit within the circular container */
+    padding: 10%; /* Adjust padding to keep the circular shape */
+  }
+  
+  .customCarouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #31318f;
+    border: none;
+  }
+  
+  .customCarouselButton:hover {
+    background: linear-gradient( rgb(225, 161, 237) 0%, rgb(172, 125, 241) 35%, rgb(118, 88, 244) 100%);
+    box-shadow: 5px -3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .customCarouselButtonRight {
+    font-size: 1.5rem;
+    right: -3%;
+  }
+  .customCarouselButtonLeft {
+    font-size: 1.5rem;
+    left: -3%;
+  }
+  
+  .Carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CarouselItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  .CarouselItem{
+    padding-top: 5%;
+  }
+
+  .CarouselItem p{
+    width: 60%;
+  }
+  
+  .AnimationImage{
+    position: absolute;
+    width: 20%;
+    right: 20%;
+  }
+  
+  .title{
+    font-weight: 700;
+    color: #0074D9;
+  }
+
+  .subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  .Content{
+    width: 50%;
+    padding: 5%;
+  }
+
+  @media (max-width: 1400px) {
+    .founders{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Carousel {
+      width: 100%;
+    }
+    .customCarousel{
+      width: 50vh;
+      height: 50vh;
+    }
+    .Content{
+      display: none;
+    }
+    .Carousel{
+      margin: auto;
+    }
+    .AnimationImage{
+      display: none;
+    }
+  }
+   @media (max-width: 500px) {
+    .founders{
+      padding-bottom: 10%;
+    }
+    .customCarousel{
+      width: 40vh;
+      height: 40vh;
+    } 
+  }
+
+  /* @media (max-width: 700px) {
+    .customCarousel{
+      width: 50vh;
+      height: 50vh;
+    }
+    .customCarousel img {
+      padding: 1%;
+    }
+    .subtitle{
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 320px) {
+    .founders{
+      padding: 20%;
+    }
+    .customCarousel{
+      width: 50vh;
+      height: 50vh;
+    }
+    .customCarousel img {
+      padding: 0.5%;
+    }
+    .subtitle{
+      font-size: 1rem;
+    }
+  } */

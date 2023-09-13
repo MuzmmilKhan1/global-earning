@@ -1,0 +1,79 @@
+.body{
+    background-color: #171744;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.body h1{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.body h4{
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: #0074D9;
+}
+
+.card {
+    margin: 1%;
+    width: 31%;
+    background-color: #263698;
+    color: white;
+    text-align: center;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Investment{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #05c3de;
+}
+
+.hr{
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.card img{
+    margin: 0% 2%;
+    width: 150px;
+}
+
+.PerReferal{
+    width: 80%;
+}
+
+.ButtonDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Button{
+    border: 3px solid rgba(255, 255, 255, 0.272);
+    padding: 2%;
+    margin: 2%;
+    background-color: #171744;
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+}
+@media (max-width: 787px) {
+    .card{
+        width: 80%;
+        margin: 2% auto;
+        padding: 3%;
+    }
+}

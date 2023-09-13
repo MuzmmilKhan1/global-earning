@@ -1,0 +1,80 @@
+.rulesWrapper{
+    background-color: #171744;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.rulesHeader{
+    margin: 3% auto;
+    text-align: center;
+}
+
+.rulesCollapsible{
+    width: 80%;
+    background-color: #171744;
+}
+
+.rules{
+    padding: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Accordion,.AccordionBody{
+    background-color: #171744;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.AccordionHeader{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100%;
+}
+
+.AccordionItem{
+    padding: 2%;
+    margin: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.306);
+    width: 80%;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.subtitle{
+    font-weight: 700;
+    color: #0074D9;
+}
+
+.rulesHeader{
+    font-weight: light;
+}
+
+@media (max-width: 500px) {
+    .Animation{
+        display: none;
+    }
+    .rules{
+        width: 100%;
+    }
+    .rulesCollapsible{
+        width: 100%;
+    }
+    .AccordionItem{
+        width: 100%;
+        padding: 2%;
+        margin: 0%;
+    }
+}

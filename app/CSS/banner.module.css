@@ -1,0 +1,300 @@
+.banner-section{
+    background-image: url("../../public/Images/banner/banner.png");
+    margin: 0;
+    background-color: #171744;
+    height: 140vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+/* Logo */
+.logo{
+  max-width: 120px;
+}
+
+/* Background Pictures */
+.pic1{
+    width: 200px;
+    position: absolute;
+    transform: translate(50%, 200%);
+    z-index: 4;
+    overflow-x: hidden !important;
+}
+.pic2{
+    width: 150px;
+    position: absolute;
+    transform: translate(500%, 600%);
+    z-index: 4;
+    overflow-x: hidden !important;
+}
+.pic3{
+    width: 250px;
+    position: absolute;
+    transform: translate(200%, 150%);
+    z-index: 4;
+    overflow-x: hidden !important;
+}
+
+/* Stars Animation */
+.star {
+    position: absolute;
+    opacity: 0; 
+    top: 0%;
+    z-index: 1;
+    animation: starAnimate 5s infinite;
+    overflow-x: hidden !important;
+  }
+  
+  @keyframes starAnimate {
+    0%
+    {
+        transform:  translate(100%,0%);
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform:  translate(0%,100%);
+        opacity: 0;
+    }
+  }
+
+.line1{
+    top: 0;
+    right: 7%;
+    left: initial;
+    animation-delay: 0s;
+    overflow-x: hidden !important;
+}
+.line2{
+    top: 0;
+    animation-delay: 0.2s;
+    overflow-x: hidden !important;
+}
+.line3{
+    top: 80;
+    animation-delay: 0.4s;
+    overflow-x: hidden !important;
+}
+.line4{
+    top: 0;
+    right: 180px;
+    left: initial;
+    animation-delay: 0.6s;
+    overflow-x: hidden !important;
+}
+.line5{
+    top: 0;
+    animation-delay: 0.8s;
+    overflow-x: hidden !important;
+}
+.line6{
+    top: 0;
+    right: 600px;
+    left: initial;
+    animation-delay: 1s;
+    overflow-x: hidden !important;
+}
+.line7{
+    top: 300px;
+    animation-delay: 1.2s;
+    overflow-x: hidden !important;
+}
+.manyline{
+    top: 0px;
+    right: 700px;
+    left: initial;
+    animation-delay: 1.4s;
+    overflow-x: hidden !important;
+}
+
+/* Robots */
+
+@keyframes RobotAnimate {
+  0%{
+  transform: translate(500%,350%);
+  }
+  50%{
+  transform: translate(510%,350%);
+  }
+  100%{
+  transform: translate(520%,350%);
+  }
+}
+
+.robot1{
+  position: absolute;
+  transform: translate(500%,350%);
+  animation:  RobotAnimate 3s;
+  overflow-x: hidden !important;
+}
+.robot2{
+  position: absolute;
+  transform: translate(10%,350%);
+  overflow-x: hidden !important;
+}
+.robot3{
+  position: absolute;
+  transform: translate(300%,200%);
+  overflow-x: hidden !important;
+}
+
+
+
+/* Navbar */
+.InitialNavBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1% 0%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Icons */
+.Socials{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.NavIcon{
+  color:white;
+  font-size: 1.3rem;
+  padding: 0 3px;
+}
+
+.joinUsButton{
+  background-image: linear-gradient(to right,#6610f2,#dc3545);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  text-underline-offset:  none;
+  text-decoration: none;
+}
+
+/* Actual Navbar */
+.FixedNavbar{
+  background-color: #6610f2;
+  width: 80%;
+  z-index: 2;
+  margin: auto;
+}
+.toggleBar{
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+.navbootstrap{
+  background-color: #6610f2;
+  z-index: 3;
+}
+.navLink{
+  color: white;
+  font-weight: bolder;
+}
+.navLink:hover{
+  color: #dc3545;
+}
+.navBrand{
+  display: none;
+}
+
+/* Contents */
+.content{
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+  width: 80%;
+  margin: 15vh auto;
+}
+.contentDiv{
+  width: 40%;
+  margin: auto;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+}
+.contentDivPlay{
+  width: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: auto;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+.span{
+  color: white;
+}
+.joinUsButtonContent{
+  width: 40%;
+}
+
+@media  screen and (max-width: 992px) {
+  .banner-section{
+    overflow-x: hidden;
+  }
+  .FixedNavbar{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .InitialNavBar{
+    display: none;
+  }
+  .navBrand{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+  }
+  .navBrand img{
+    width: 150px;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 5%;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .contentDiv{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .contentDivPlay{
+    margin: 10% auto;
+  }
+}
+@media  screen and (max-width: 1103px) {
+  .robot1{
+    display: none;
+  }
+
+}
+
+@media (max-width: 526px) {
+  .robot3, .robot1, .robot1{
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .star{
+    display: none;
+  }
+}

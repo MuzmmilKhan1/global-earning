@@ -1,0 +1,82 @@
+.body{
+    background-color: #171744;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("../../../public/Images/banner/inner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden !important;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/* .backgroundImage{
+    
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    top: 0%;
+} */
+
+.form{
+    width: 60%;
+    background-color: #2c2c83;
+    border: 5px solid #b4b4b43f;
+    margin: 10% auto;
+    padding: 2%;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h1{
+    font-weight: 700;
+}
+
+.inputDivs{
+    margin: 0% auto;
+    width: 80%;
+}
+.form select{
+    width: 100%;
+}
+.form input{
+    width: 100%;
+}
+.form button{
+    background-image: linear-gradient(to right,#6610f2,#dc3545);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin: 2% auto auto auto;
+  }
+
+.form label{
+    margin: 1%;
+}
+
+.input{
+    background-color: #3b4a93;
+    border-radius: 5px;
+    border: 1px solid #7983b5;
+    color: #dde5ff;
+    padding: 5px 10px;
+    margin: 2%; 
+    z-index: 1;
+}
+.input:placeholder{
+  color: white;
+  background-color: #3b4a93;
+}
+.input:focus {
+  outline: none;
+  border: 1px solid #7983b5;
+  background-color: #3b4a93;
+}
