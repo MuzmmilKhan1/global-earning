@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */ 
 'use client'
 import React from 'react';
 import styles from '../../app/CSS/rule.module.css';
