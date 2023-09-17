@@ -10,7 +10,7 @@ export default function Content() {
       <span>🤍</span>(GLAS)<span>🤍</span>
       </h3>
       <p>
-      Hello everyone,
+    {`Hello everyone,
       This is an assignment opportunity that I'd like to share with you.
       You will receive an assignment that you can complete online.
       You can access this assignment from the internet.
@@ -22,7 +22,7 @@ export default function Content() {
       To be eligible for this work, you must have an Easypaisa or Jazcash account.
       Please make sure to provide screenshots of your payment.
       Your income will only be provided when you send the money to our official account. Otherwise, the company will not pay.
-      Before you start working, you need to fill out a form.
+      Before you start working, you need to fill out a form.`}
       </p>
     </div>
   )
