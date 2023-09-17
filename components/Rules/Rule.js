@@ -98,3 +98,4 @@ export default function Rule() {
   )
 }
 
+/* eslint-disable react/no-unescaped-entities */ 
