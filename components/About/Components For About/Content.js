@@ -27,3 +27,4 @@ export default function Content() {
     </div>
   )
 }
+/* eslint-disable react/no-unescaped-entities */ 
