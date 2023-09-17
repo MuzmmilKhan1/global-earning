@@ -56,7 +56,7 @@ export default function Rule() {
         <Accordion.Collapse eventKey="1" className={`${styles.AccordionBody}`}>
           <Card.Body className={`${styles.AccordionBody}`}>
           <hr></hr>
-            If you successfully complete one task, you'll receive your salary immediately, and then you'll be assigned your second task. After that, a new task will start.</Card.Body>
+{`If you successfully complete one task, you'll receive your salary immediately, and then you'll be assigned your second task. After that, a new task will start.`}</Card.Body>
         </Accordion.Collapse>
       </Card>
       <Card className={`${styles.AccordionBody} ${styles.AccordionItem}`}>
@@ -66,7 +66,7 @@ export default function Rule() {
         <Accordion.Collapse eventKey="2" className={`${styles.AccordionBody}`}>
           <Card.Body className={`${styles.AccordionBody}`}>
           <hr></hr>
-            If you fail to complete any task, you won't receive your salary for that week.</Card.Body>
+{`If you fail to complete any task, you won't receive your salary for that week.`}</Card.Body>
         </Accordion.Collapse>
       </Card>
       <Card className={`${styles.AccordionBody} ${styles.AccordionItem}`}>
@@ -76,7 +76,7 @@ export default function Rule() {
         <Accordion.Collapse eventKey="3" className={`${styles.AccordionBody}`}>
           <Card.Body className={`${styles.AccordionBody}`}>
           <hr></hr>
-            If the screenshot of payment from your referred members is not provided, their payment won't be accepted.</Card.Body>
+{`If the screenshot of payment from your referred members is not provided, their payment won't be accepted.`}</Card.Body>
         </Accordion.Collapse>
       </Card>
       <Card className={`${styles.AccordionBody} ${styles.AccordionItem}`}>
@@ -86,7 +86,7 @@ export default function Rule() {
         <Accordion.Collapse eventKey="4" className={`${styles.AccordionBody}`}>
           <Card.Body className={`${styles.AccordionBody}`}>
           <hr></hr>
-            If your referred member doesn't join within 1 hour, they won't be added.</Card.Body>
+{`If your referred member doesn't join within 1 hour, they won't be added.`}</Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>
